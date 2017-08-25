@@ -60,6 +60,7 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 
     public int numberOfRows() {
+        //주석처리하나더
         SQLiteDatabase db = this.getReadableDatabase();
         int numRows = (int) DatabaseUtils.queryNumEntries(db, MOVIES_TABLE_NAME);
         return numRows;
