@@ -13,7 +13,8 @@ public class DBHelper extends SQLiteOpenHelper {
 
     public static final String DATABASE_NAME = "MyMovies.db";
     public static final String MOVIES_TABLE_NAME = "movies";
-    public static final String MOVIES_COLUMN_ID = "id";
+    //public static final String MOVIES_COLUMN_ID = "id";
+    //사용하지않는 변수주석
     public static final String MOVIES_COLUMN_NAME = "name";
     public static final String MOVIES_COLUMN_DIRECTOR = "director";
     public static final String MOVIES_COLUMN_YEAR = "year";
