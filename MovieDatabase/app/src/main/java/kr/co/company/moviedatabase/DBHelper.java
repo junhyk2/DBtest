@@ -9,6 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import java.util.ArrayList;
 
+
 public class DBHelper extends SQLiteOpenHelper {
 
     public static final String DATABASE_NAME = "MyMovies.db";
